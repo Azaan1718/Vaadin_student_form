@@ -21,7 +21,7 @@ import com.vaadin.flow.component.dependency.CssImport;
 
 
 
-@Route("students")
+@Route("")
 @PageTitle("Student Management")
 public class StudentView extends VerticalLayout {
 
@@ -147,6 +147,27 @@ public class StudentView extends VerticalLayout {
     service.saveStudent(student);
 
     Notification.show("Student Saved Successfully");
+
+    school.setValue("Nagarjuna Model School");
+
+firstName.clear();
+lastName.clear();
+
+gender.clear();
+aspiration.clear();
+
+grade.clear();
+section.clear();
+
+email.clear();
+
+leader.setValue(false);
+
+comments.clear();
+
+guardianName.clear();
+guardianRelation.clear();
+guardianEmail.clear();
 
 });
 
