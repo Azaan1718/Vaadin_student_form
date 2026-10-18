@@ -107,7 +107,7 @@ public class Student {
     public void setGuardianrelation(String guardianrelation) {
         this.guardianrelation = guardianrelation;
     }
-    
+
     public Long getId() {
         return id;
     }
@@ -116,3 +116,4 @@ public class Student {
     }
 
 }
+
